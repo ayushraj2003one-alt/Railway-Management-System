@@ -1,0 +1,17 @@
+# North Indian Railway Network Dataset
+# Format: Source,Destination,Distance_km,Time_min
+Delhi,Ambala,200,180
+Delhi,Dehradun,250,300
+Delhi,Haridwar,210,240
+Delhi,Chandigarh,260,240
+Ambala,Chandigarh,50,45
+Ambala,Ludhiana,110,90
+Ambala,Shimla,150,200
+Chandigarh,Shimla,110,180
+Chandigarh,Ludhiana,100,110
+Ludhiana,Amritsar,140,120
+Ludhiana,Pathankot,170,160
+Amritsar,Pathankot,110,100
+Pathankot,Jammu,100,110
+Dehradun,Haridwar,50,60
+Dehradun,Shimla,220,360

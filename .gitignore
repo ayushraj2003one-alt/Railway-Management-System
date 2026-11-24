@@ -1,0 +1,15 @@
+# Binaries and executables
+*.exe
+*.o
+*.obj
+railway_tracker
+
+# Build directories
+build/
+bin/
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.DS_Store
