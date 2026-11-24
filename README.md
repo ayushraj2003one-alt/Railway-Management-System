@@ -8,8 +8,8 @@
 [![Build Tool](https://img.shields.io/badge/Build-GNU%20Make-064F8C?style=for-the-badge&logo=gnu-make&logoColor=white)](https://www.gnu.org/software/make/)
 [![Algorithm](https://img.shields.io/badge/Algorithm-Dijkstra's%20SSSP-8A2BE2?style=for-the-badge)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 [![Data Structure](https://img.shields.io/badge/Data%20Structure-Binary%20Min--Heap-FF6F00?style=for-the-badge)](https://en.wikipedia.org/wiki/Binary_heap)
-[![Complexity](https://img.shields.io/badge/Time%20Complexity-O((V%2BE)logV)-brightgreen?style=for-the-badge)](#algorithmic-complexity)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge&logo=windows&logoColor=white)](#how-to-build--run)
+[![Complexity](https://img.shields.io/badge/Time%20Complexity-O((V%2BE)logV)-brightgreen?style=for-the-badge)](#algorithmic-complexity-matrix)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge&logo=windows&logoColor=white)](#-how-to-build--run)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 <br/>
@@ -82,7 +82,7 @@
 
 ## 🌟 Key Highlights & Features
 
-- **⚡ Min-Heap Accelerated Dijkstra**: Reduces linear node extraction $\mathcal{O}(V^2)$ down to $\mathcal{O}((V + E) \log V)$ using an in-place priority queue.
+- **⚡ Min-Heap Accelerated Dijkstra**: Reduces linear vertex extraction $\mathcal{O}(V^2)$ down to $\mathcal{O}((V + E) \log V)$ using an in-place priority queue.
 - **🎯 Dual-Criterion Optimization**: Seamlessly calculate either the **shortest track distance (km)** or the **fastest transit duration (minutes)**.
 - **📂 Dynamic Dataset Loading**: Reads routes directly from `data/network.csv` with automatic fallback to an internal graph.
 - **🔍 Smart Station Resolution**: Accepts either station names (case-insensitive, e.g., `delhi`, `jammu`) or numbered station indices.
@@ -131,7 +131,7 @@ graph LR
 
 ---
 
-## 📁 Repository Organization
+## 📁 Directory Structure
 
 ```text
 Railway-Management-System/
